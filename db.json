@@ -1,0 +1,23 @@
+{
+  "admission": [
+    { "id":21,
+      "sname": "vishu",
+      "fanme": "ramu",
+      "mobile": "654356",
+      "country":"india"
+    },
+    {"id":22,
+      "sname": "Revathi",
+      "fanme": "Ravindra",
+      "mobile": "12343",
+      "country":"Austrlia"
+    },
+    {"id":23,
+      "sname": "aruna",
+      "fanme": "kedarnath",
+      "mobile": "98989",
+      "country":"america"
+    }
+  ]
+}
+ 

@@ -1,0 +1,29 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Student-Name</th>
+        <th scope="col">father-name</th>
+        <th scope="col">Mobile-No</th>
+        <th scope="col">Country</th>
+        <th>Confirmation</th>
+       
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let x of Admsn">
+        <th scope="row">{{x.id}}</th>
+        <td>{{x.sname}}</td>
+        <td>{{x.fanme}}</td>
+        <td>{{x.mobile}}</td>
+        <td>{{x.country}}</td>
+        <td>
+            <i  class="fa fa-trash-o" style="font-size:30px;color:rgb(83, 83, 139)">
+            </i>
+            
+        </td>
+      </tr>
+      
+     
+    </tbody>
+  </table>
